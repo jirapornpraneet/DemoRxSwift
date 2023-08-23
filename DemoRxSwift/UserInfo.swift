@@ -15,6 +15,6 @@ struct UserInfo {
     init(_ json: JSON) {
         name = json["name"].stringValue
         height = json["height"].stringValue
-        hairColor = json["hairColor"].stringValue
+        hairColor = json["hair_color"].stringValue
     }
 }
